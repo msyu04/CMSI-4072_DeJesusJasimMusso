@@ -1,0 +1,27 @@
+
+CMSI 4072 Spring 2026
+Project Proposal Feedback
+Project: Memoria
+=========================
+Proposal Document [2 points]:
+   Verbal Description
+      Partially Complete; contains core idea and features, but needs fuller
+      narrative, gameplay loop, audience definition, and scope clarity.
+   Justification
+      Partially Complete; shows enthusiasm and background, but lacks
+      discussion of SE rigor, risks, feasibility, and alignment with
+      CMSI 4072 expectations.
+
+Proposal Presentation [Slides and video] [3 points]:
+   Slides:
+      REALLY beautiful title slide.  Excellent graphics throughout.  Text
+      on Justification slide is a bit too verbose and kind of small which
+      makes it a bit hard to read
+
+   Video:
+
+
+Summary:
+--------
+
+Nice job overall!  Keep up the good work.  Will update after video is posted.
