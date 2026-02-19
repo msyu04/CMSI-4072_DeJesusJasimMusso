@@ -1,0 +1,79 @@
+
+Documentation Feedback ~ Deliverable #2
+Software Requirements Specification
+Initial Development Schedule
+CMSI 4072 Spring 2026
+=======================================
+
+COMPONENT BREAKDOWN:
+   Strengths:
+      Clear subsystem breakdown (Game Manager, Player, Inventory,
+      Narrative, Puzzle, Art & UI).
+      Table of contents shows thoughtful document organization.
+   Suggestions:
+      Add sections for assumptions, constraints, glossary, and system
+      context diagrams to increase clarity and completeness.
+      Add user roles (e.g., player, developer) explicitly.
+
+FUNCTIONAL REQUIREMENTS:
+   Strengths:
+      Requirements are atomic, testable, and grouped by subsystem.
+      Covers all major gameplay systems.
+      Includes persistence behavior (inventory, puzzles, progress).
+   Suggestions:
+      Add missing error-handling cases (e.g., corrupted save file, NPC
+         interaction failure, puzzle reset failure).
+      Add edge-case behavior (e.g., full inventory, invalid player input,
+         missing art assets).
+      Add functional requirements for audio system, achievements, or
+         accessibility if intended.
+      Clarify interactions between subsystems (e.g., how puzzles influence
+         narrative states).
+
+PERFORMANCE REQUIREMENTS:
+   Strengths:
+      Concrete and testable time and performance constraints.
+      Covers gameplay, UI, memory, and save/load behavior.
+   Suggestions:
+      Add stress/performance limits (max number of objects, max NPCs).
+      Add performance conditions for low-end hardware and heavy scenes.
+      Add failure-mode performance (e.g., recovery time after lag spike).
+      Add GPU-related performance constraints (e.g., minimum shader load).
+
+ENVIRONMENT REQUIREMENTS:
+   Strengths:
+      Clear minimum and development-level hardware specs.
+      Detailed software and toolchain listing.
+   Suggestions:
+      Add supported operating systems more explicitly (Linux? Steam Deck?)
+      Add storage and GPU compatibility constraints for minimum hardware.
+      Add build environment requirements (Unity LTS version number).
+      Specify version control workflow or branching model.
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   Component Breakdown               1.0/1
+   Functional Requirements           3.5/4
+   Performance Requirements          2.0/2
+   Environment Requirements          1.0/1
+                                     =====
+   Subtotal                          7.5/8
+   Preliminary Schedule              2.0/2   [Freebee]
+   ------------------------------------------------------
+   Total Percentage:   9.5/10 = 95% which is an A
+
+
+OVERALL ASSESSMENT:
+You've met most of the desired measurements for this deliverable.  To reach
+full completeness under CMSI-4072 guidelines:
+   Add assumptions, constraints, glossary, and diagrams
+      (system overview, flow, and state charts).
+   Expand functional requirements to include error handling, failure
+      states, and accessibility support.
+   Add more exhaustive performance constraints (stress limits, recovery
+      behavior, worst-case scenarios).
+   Expand environment requirements to include CI/CD steps, engine
+      version pinning, and asset pipeline requirements.
+
+Nice work on this deliverable ~ keep up the good work!
+
