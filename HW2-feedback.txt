@@ -1,0 +1,45 @@
+
+
+HW 2 - Stephens Book Chapters 5 and 6
+CMSI 4072 Spring 2026
+
+Category        Weight     Earned
+===========    ========    ======
+Problem 5.1    [ 5 pts.]      5.0
+Problem 5.2    [ 5 pts.]      5.0
+Problem 5.4    [ 5 pts.]      4.0
+Problem 5.6    [ 5 pts.]      5.0
+Problem 5.8    [10 pts.]      9.0
+Problem 6.1    [10 pts.]     10.0
+Problem 6.2    [10 pts.]     10.0
+
+       Subtotal [50 max]     50.0
+              Your Total     48.0
+
+         Letter grade   A
+
+=================
+SPECIFIC COMMENTS:
+
+Problem 5.1 ~ correct
+
+Problem 5.2 ~ correct
+
+Problem 5.4 ~ Correct to include Service-Oriented/Client-Server for
+   networking. “Monolithic” is largely irrelevant once a central service
+   is introduced, but the core idea is there.
+
+Problem 5.6 ~ correct
+
+Problem 5.8 ~ Your diagram is a little off.  You don't have an option to
+   exclude the leading sign.  The rest looks good.  One point to remember:
+   find yourself a drawing tool that you can use to make more professional
+   drawings so that your work reflects the quality that you are putting in
+   to your designs.  Just a suggestion ~ there are plenty of free ones!
+
+Problem 6.1 ~ correct
+
+Problem 6.2 ~ correct
+
+
+nice work!

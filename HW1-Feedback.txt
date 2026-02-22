@@ -1,0 +1,55 @@
+
+
+HW 1 - Stephens Book Chapters 1, 2, 4, and 5
+CMSI 4072 Spring 2026
+
+Category        Weight     Earned
+===========    ========    ======
+Problem 1.1    [8 pts.]       8.0
+Problem 1.2    [8 pts.]       8.0
+Problem 2.4    [1 pts.]       1.0
+Problem 2.5    [1 pts.]       1.0
+Problem 4.2    [5 pts.]       5.0
+Problem 4.4    [5 pts.]       0.0
+Problem 4.6    [1 pts.]       1.0
+Problem 4.8    [2 pts.]       2.0
+Problem 5.1    [1 pts.]       1.0
+Problem 5.3    [5 pts.]       4.0
+Problem 5.9    [3 pts.]       3.0
+
+      Subtotal [50 max]      40.0
+             Your Total      34.0
+
+         Letter grade   B
+
+=================
+SPECIFIC COMMENTS:
+
+Problem 1.1 ~ Partially correct list, but it omits commonly expected phases (e.g., Deployment, clear separation of High-level vs Low-level design, Wrap-up/Retrospective). Spelling error (“Maintainance”).
+
+Problem 1.2 ~ set is incomplete (missing at least Requirements and Deployment) and not aligned one-to-one with the full lifecycle expected in 1.1.
+
+Problem 2.4 ~ correct
+
+Problem 2.5 ~ correct
+
+Problem 4.2 ~ correct
+
+Problem 4.4 ~ Not attempted ~ no credit.
+
+Problem 4.6 ~ correct
+
+Problem 4.8 ~ correct
+
+Problem 5.1 ~ correct
+
+Problem 5.3 ~ Several categorizations are questionable.
+   Items e (“schedule uploads/downloads at any time”), f (“run at any time”),
+   h (sequential only), i (queueing constraint) are operational constraints
+   and more naturally Nonfunctional rather than User or Functional;
+   j (perform scheduled transfers) can be Functional.
+
+Problem 5.9 ~ correct
+
+
+nice work!
