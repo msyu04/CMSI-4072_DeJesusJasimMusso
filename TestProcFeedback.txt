@@ -1,0 +1,96 @@
+
+Documentation Feedback ~ Deliverable #3
+Test Procedure Document
+CMSI 4072 Spring 2026 ~
+=======================================
+
+A. Test steps are clearly documented and precise
+   Strengths
+      The document describes runtime flows such as review submission and
+         aggregate update in the sequence diagram. These flows resemble
+         high-level testable behaviors.
+   Suggestions
+      Some interactions (Auth, Data Access, Firestore, etc.) include
+         step-like descriptions of system behavior that could inspire tests.
+
+B. Clear mapping between requirements and test cases
+   [or between user stories and test cases]
+   Strengths
+      The SDD notes that components map to specific SRS requirement sections
+      (5.2.1–5.2.8). This creates an indirect bridge toward traceability.
+   Suggestions
+      No requirement-to-test mapping exists. An STP must include a matrix or
+         list of some kind to show traceability linking each requirement or
+         user story to one or more test cases.
+      Add a table listing requirement IDs, test case IDs, and coverage
+         status (full, partial, or missing).
+      Ensure the matrix accounts for functional, non-functional,
+         error-handling, and concurrency requirements.
+
+C. All assumptions and dependencies are explicitly captured
+   Strengths
+      Good bullet list under 'Test Environment'
+   Suggestions
+      Must also list related test-environment assumptions such as test
+         accounts, populated data, reviewer permissions, seeded Firestore
+         documents, and controlled network conditions.
+      Include constraints such as domain-restricted login, absence of
+         local caching, and reliance on online connectivity.
+      Add dependencies on Firebase service availability, API versions,
+         and required datasets for deterministic testing.
+
+D. Test steps checklist exists
+   Strengths
+      Includes many enumerated steps that demonstrate a set of checklist
+         items.
+   Suggestions
+      Create a more granular checklist enumerating every procedure that
+         needs test steps, such as:
+            Login and logout
+            Domain validation
+            Review submission
+            Aggregate stats update
+            Bookmarking
+            Image loading
+            Offline detection and recovery
+            Error and failure cases
+      Include pre-execution, execution, and post-execution checkpoints for
+         each test flow.
+
+E. Test steps checklist completed [for second iteration]
+   Strengths
+
+   Suggestions
+
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   A. documented                        2.0
+   B. mapping                           2.0
+   C. assumptions/dependencies          2.0
+   D. checklist                         4.0
+                                     ======
+   Subtotal                            10.0
+   ------------------------------------------------------
+   Total Percentage:  10/10 = 100% which is an A-plus on this deliverable
+
+
+SECOND PASS ASSESSMENT
+   Category                          Points
+   A - D. updated previous              3.0
+   E. checklist completed               7.0
+                                     ======
+   Subtotal                            10.0
+   ------------------------------------------------------
+   Total Percentage:  10/10 = 100% which is an A-plus on this deliverable
+
+GREAT job on this first iteration!  Not having done one of these before, you
+folks did a wonderful job.  The steps are clearly stated and they include
+behaviors that can be observed to make sure things work.  The two things to
+follow up with are putting in a listing or table that shows which requirement
+statements are being tested by which test case, and a bit more granularity
+in the tests themselves.  You could also add in a section of assumptions
+for people who are not gamers and may not know what "W, A, S, and D keys"
+are about and how they relate to character movement.
+
+Keep up the good work!  You three are a wonderful team.
