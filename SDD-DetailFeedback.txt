@@ -1,0 +1,83 @@
+
+Documentation Feedback ~ Deliverable #4
+Software Design Document ~ Detailed Design
+CMSI 4072 Spring 2026
+==========================================
+
+DETAILED CLASS DESCRIPTIONS:
+   Strengths
+      This section provides a clear identification of the major C#
+         classes that implement Memoria’s gameplay systems.
+   Suggestions
+      Several class descriptions remain uneven in depth.
+      Planned classes (for example, PersistenceHandler and
+         QuestManager) should be explicitly marked as incomplete and
+         accompanied by minimal interface definitions to clarify future
+         integration expectations.
+
+DETAILED INTERFACE DESCRIPTIONS:
+   Strengths
+      The interface descriptions clearly explain how subsystems
+         communicate through the GameManager as a central mediator.
+   Suggestions
+      Clarifying whether communication is synchronous (direct method
+         calls) or event-based (Unity events, delegates) would reduce
+         ambiguity during implementation.
+
+DETAILED DATA STRUCTURE DESCRIPTIONS:
+   Strengths
+      Key data structures, especially ItemSO and the planned Quest
+         Data structure, are clearly described with purpose and fields.
+   Suggestions
+      Centralizing all major runtime data structures and documenting
+         invariants (for example, inventory slot limits or unique quest
+         IDs) would improve completeness.
+
+DETAILED DESIGN DIAGRAMS:
+   Strengths
+      The document includes a robust set of diagrams at the detailed
+         design level.
+   Suggestions
+      While diagrams are included, they are minimally explained in text.
+
+DATABASE DESIGN AND DESCRIPTION:
+   Strengths
+      The document clearly states that no database or persistent
+         storage is currently implemented.
+   Suggestions
+      Appropriate
+
+
+----------------------------------------------
+OVERALL ASSESSMENT:
+   Category                          Points
+   Class Descriptions:                  3 of  3
+   Interface Descriptions:              3 of  3
+   Data structure Descriptions:         1 of  1
+   Design diagrams:                     3 of  3
+   Database design/descriptions:        2 of  2    [this is a gimme]
+                                     ===========
+   Subtotal                            10 of 10
+   ------------------------------------------------------
+   Total Percentage:  10/10 = 100% which is an A-plus
+
+
+OVERALL EVALUATION
+==================
+As a **detailed design–level SDD**, this document is **moderately
+complete**. It provides a solid and well-structured description
+of the system’s classes, interactions, and gameplay architecture,
+particularly suited to a Unity-based project.
+
+The main areas for improvement lie in consistency and depth.
+Several CSUs and data structures are described at a conceptual
+level rather than with full detailed-design rigor. Expanding
+method signatures, interface contracts, and data definitions
+across all subsystems would elevate the document to a fully
+implementation-ready specification.
+
+Overall, the SDD successfully bridges architectural intent and
+gameplay mechanics while leaving clear pathways for future
+refinement and extension.
+
+Very nice work, you three!  What a great team you have been all year!
